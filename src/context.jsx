@@ -16,7 +16,7 @@ const getInitialDarkMode = () => {
 export const AppProvider = ({ children }) => {
     const [isDarkTheme, setIsDarkTheme] = useState(getInitialDarkMode());
 
-    const [searchTerm, setSearchTerm] = useState("yoga")
+    const [searchTerm, setSearchTerm] = useState("live")
 
     // fn control logic
     const toggleDarkTheme = () => {
